@@ -13,18 +13,32 @@ body {
   }
   
   h1 {
-    font-weight: bold;
-    font-size: 3rem;
-    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 8rem;
     margin-bottom: 4rem;
+    font: Regular 50px/61px Product Sans;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
   }
   
   h3 {
     margin: 0;
     padding-left: 10px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
+    font: Regular 35px/43px Product Sans;
+    letter-spacing: 0px;
     color: #272727;
+    opacity: 1;
+  }
+
+  h5{
+    font: Regular 24px/29px Product Sans;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
   }
   
   a,
@@ -138,13 +152,13 @@ body {
   #sidebar .sidebar-header {
     margin: 20px 30px 20px 20px;
     text-align: center;
-    color: #FAFBFD;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: large;
   }
   
   #sidebar .sidebar-header img {
-    color: #FAFBFD;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: large;
     text-align: center;
@@ -171,12 +185,12 @@ body {
   
   #sidebar ul li a:hover {
     color: #272727;
-    background: #fafbfd;
+    background: #ffffff;
   }
   
   #sidebar ul li.active>a, a[aria-expanded="true"] {
     color: #272727;
-    background: #fafbfd;
+    background: #ffffff;
   }
   
   a[data-toggle="collapse"] {
@@ -212,7 +226,10 @@ body {
     top: 180px;
     left: 230px;
     z-index: 0;
-  
+  }
+
+  .bg-light {
+    background-color: #ffffff !important;
   }
 
     /* ---------------------------------------------------
@@ -317,8 +334,9 @@ body {
 
   .card-img-top {
       width: 100%;
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
+      height: 160px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
   }
 
   .card-title {
@@ -326,7 +344,7 @@ body {
       font-weight: 700;
       font-size: 17px;
   }
-  
+
   #testimonials {
     margin-left: 50px;
   }
