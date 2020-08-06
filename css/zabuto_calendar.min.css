@@ -166,3 +166,9 @@ div.zabuto_calendar div.legend span.badge {
 		padding: 2px 1px
 	}
 }
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 18px solid #FFFFFF;
+}
