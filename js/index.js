@@ -10,6 +10,7 @@ $(document).ready(function(){
   $('#sidebarCollapse').on('click', function () {
     $('#sidebar').toggleClass('active');
     $('#collapse-icon').toggleClass('fa-chevron-circle-left fa-chevron-circle-right');
+    
   });
 
   $('.owl-carousel').owlCarousel({
