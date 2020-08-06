@@ -40,6 +40,33 @@ hr.new3 {
     padding-bottom: 20px;
 }
 
+.breadcrumb {
+    display: -ms-flexbox;
+    font-size: 22px;
+    font-weight: bold;
+    color: #272727;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: .25rem;
+}
+
+.breadcrumb-item.active {
+    color: #FD585C;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #272727;
+    content: ">>";
+}
+
+ol {
+    margin-top: 20px;
+}
+
 .btn {
     width: 50%;
     height: 40px;
