@@ -56,6 +56,7 @@ ol {
     border-radius: 4px;
 
     font: Bold 22px/27px Product Sans;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1.96px;
     color: #FFFFFF;
     opacity: 1;
@@ -68,6 +69,15 @@ h1 {
     font: ExtraBold 50px/62px Gilroy;
     letter-spacing: 0px;
     color: #03293D;
+    opacity: 1;
+}
+
+h2 {
+    margin: 10px;
+    font: Bold 34px/42px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #272727;
     opacity: 1;
 }
 
@@ -146,6 +156,22 @@ p {
     margin-right: 5px;
 }
 
+.imagefix1 {
+    height: 30px;
+    width: 30px;
+    background: #F7CB73;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.imagefix2 {
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+}
+
 .document {
     height: 35px;
     width: 160px;
@@ -159,6 +185,47 @@ p {
     padding-left: 0;
 }
 
+.ro {
+    margin: 40px;
+    padding: 20px 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 12px #0000001A;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.upcoming1 {
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;   
+}
+
+  /* width */
+  .upcoming1::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .upcoming1::-webkit-scrollbar-track {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    opacity: 1;
+  }
+   
+  /* Handle */
+  .upcoming1::-webkit-scrollbar-thumb {
+    background: #FD585CCC 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
+  
+  /* Handle on hover */
+  .upcoming1::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 0, 0); 
+  }
+
+
+
 .detailbutton {
     height: 100px;
     padding-top: 25px;
@@ -167,6 +234,7 @@ p {
     opacity: 1;
     text-align: center;
     font: Bold 34px/42px Product Sans;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -180,8 +248,273 @@ p {
     opacity: 1;
     text-align: center;
     font: Bold 34px/42px Product Sans;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #272727;
     opacity: 1;
 }
 
+
+/*For execution Pages*/
+
+.executiontab {
+    height: 80px;
+    margin-top: 35px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font: Bold 24px/29px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.executiontab:hover {
+    background: #FFDB64 0% 0% no-repeat padding-box;
+}
+
+.uploadsection {
+    padding: 40px;
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #70707029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.uploadsection p {
+    
+    font: Regular 24px/29px Product Sans;
+    letter-spacing: 0px;
+    color: #03293D;
+    opacity: 1;
+}
+
+.input100 {
+    display: block;
+    width: 575px;
+    height: 60px;
+    padding-left: 20px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #8080801A;
+    border: 2px solid #70707026;
+    opacity: 1;
+    
+  }
+
+  .lineinput100 {
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    border: 0;
+    background: #F4F5F980 0% 0% no-repeat padding-box;
+    border-bottom: 4px solid #7070704D;
+    opacity: 1;
+    
+  }
+
+  .linkbutton {
+    height: 60px;
+    width: 240px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 80px 0;
+    
+    font: Bold 22px/27px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .activitybutton {
+    height: 60px;
+    width: 200px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    margin-bottom: 20px;
+    
+    font: Bold 22px/27px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .addbutton{
+    font: Bold 22px/27px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.96px;
+    color: #FD585C;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px #00000033;
+    border: 2px solid #FD585C;
+    opacity: 1;
+  }
+
+  .activitydiv1 { 
+    font: Bold 30px/37px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #03293D;
+    opacity: 1;
+    padding-right: 0px;
+    padding-left: 22px;
+    margin-top: 22px;
+  }
+
+  .activitydiv2 {
+    padding: 0px;
+    padding-right: 10px;
+    margin: 0;
+    text-align: start;
+    font: 600 24px/29px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+  }
+
+  .grpmembers {
+    float: right;
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #7070703D;
+    opacity: 1;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font: Regular 22px/27px Product Sans;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(238, 238, 238);
+    border-left: 5px solid #FD585C;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+.card {
+    position: relative;
+    padding: 0;
+    margin: 0 10px;
+    margin-top: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #F4F5F980 0% 0% no-repeat padding-box;
+    border: 2px solid #70707029;
+    border-radius: 12px;
+    opacity: 1;
+    background-clip: border-box;
+
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    height: 70px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    
+    border-top: 2px solid #70707029;
+    border-radius: 0px 0px 12px 12px;
+    
+    opacity: 1;
+}
+
+.card-body a {
+    font: Bold 18px/22px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#create {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+  }
+
+
+.texteditor {
+    overflow-y: scroll;
+    height: 400px;
+    border: 2px solid #70707029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    border: none;
+}
