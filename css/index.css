@@ -69,7 +69,7 @@ a:focus {
   border-radius: 20px;
   width: 35px;
   line-height:1em;
-  margin-left: 1rem;
+  margin-right: 0;
   text-align:center;
   background: white;
   color: #272727;
@@ -106,11 +106,12 @@ a:focus {
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
-  margin: 0px 2rem 0px 2rem;
+  margin: 0px 2rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background: #FFDB64;
+  background: #043650;
+  color: #272727;
   margin: 0px 2rem 0px 2rem;
 }
 
@@ -125,6 +126,11 @@ a:focus {
 
 .innertag {
   color: #fd585c;margin: 24px;padding: 0px 0px !important;font-weight: 600;text-align: left;
+}
+
+#navbarDropdown:hover {
+  background: #043650;
+  color: #272727;
 }
 
 .line {
@@ -469,6 +475,7 @@ footer p {
   #sidebarCollapse span {
       display: none;
   }
+  
 }
 
 @media (min-width: 768px) {

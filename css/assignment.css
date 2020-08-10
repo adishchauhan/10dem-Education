@@ -46,6 +46,28 @@ ol {
     margin-bottom: 50px;
 }
 
+textarea {
+    width: 500px;
+    height: 194px;
+    padding: 20px;
+
+    outline: none;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 23px;
+    opacity: 1;
+}
+
+textarea::-webkit-input-placeholder {
+    font: Bold 24px/29px Product Sans;
+    letter-spacing: 0px;
+    color: #03293D;
+    opacity: 0.4;
+}
+
+
+
 .btn {
     width: 180px;
     height: 60px;
@@ -65,8 +87,7 @@ ol {
 h1 {
     margin: 2rem 0;
     margin-bottom: 15px;
-    font-size: 40px;
-    font: ExtraBold 50px/62px Gilroy;
+    font: ExtraBold 50px/62px Gilroy !important;
     letter-spacing: 0px;
     color: #03293D;
     opacity: 1;
@@ -146,7 +167,7 @@ p {
     margin-top: 18px;
     border-radius: 50%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 2px solid #FFDB64;
+    box-shadow: 0px 3px 12px #ffbb0060;
     opacity: 1;
 }
 
@@ -154,6 +175,7 @@ p {
     width: 24px;
     height: 24px;
     margin-right: 5px;
+    background: transparent 0% 0% no-repeat padding-box;
 }
 
 .imagefix1 {
@@ -170,14 +192,32 @@ p {
     height: 32px;
     width: 32px;
     margin-right: 5px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
 }
 
 .document {
     height: 35px;
-    width: 160px;
+    width: 150px;
     padding: 5px;
+    margin: auto;
+    display: block;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     border-radius: 8px;
+}
+
+.indication {
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+    display: block;
+    background: #FD585C59 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+
+    font: Regular 16px/19px Product Sans;
+    letter-spacing: 0px;
+    color: #FD585C;
 }
 
 .pad {
@@ -300,7 +340,7 @@ p {
     width: 575px;
     height: 60px;
     padding-left: 20px;
-
+    outline: none;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 10px #8080801A;
     border: 2px solid #70707026;
@@ -313,6 +353,7 @@ p {
     height: 60px;
     padding-left: 20px;
     border: 0;
+    outline: none;
     background: #F4F5F980 0% 0% no-repeat padding-box;
     border-bottom: 4px solid #7070704D;
     opacity: 1;
@@ -325,7 +366,10 @@ p {
     padding: 0px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 80px 0;
+    margin: auto;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 70px;
     
     font: Bold 22px/27px Product Sans;
     font-family: 'Poppins', sans-serif;
@@ -340,8 +384,10 @@ p {
     padding: 0px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 0;
-    margin-bottom: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
     
     font: Bold 22px/27px Product Sans;
     font-family: 'Poppins', sans-serif;
@@ -362,6 +408,15 @@ p {
     opacity: 1;
   }
 
+  .activity {
+    margin-bottom: 25px;
+    font: Bold 20px/32px Product Sans;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #FD585C;
+    opacity: 1;
+  }
+
   .activitydiv1 { 
     font: Bold 30px/37px Product Sans;
     font-family: 'Poppins', sans-serif;
@@ -374,6 +429,7 @@ p {
   }
 
   .activitydiv2 {
+    text-align: justify;
     padding: 0px;
     padding-right: 10px;
     margin: 0;
@@ -495,6 +551,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    
 }
 
 #create {
@@ -517,4 +574,86 @@ p {
 
 .ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
     border: none;
+}
+
+
+/* modal*/
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #0000003D;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border: 2px solid #7070702B;
+    font: Regular 30px/37px Product Sans;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+    
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    border: none;
+    font: Regular 30px/37px Product Sans;
+    letter-spacing: 0px;
+    color: #27272780;
+    opacity: 1;
+}
+
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border: none;
+}
+
+.modalbutton1 {
+    width: 200px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px #00000033;
+    border: 2px solid #FD585C;
+    border-radius: 4px;
+    opacity: 1;
+
+    font: Bold 22px/27px Product Sans;
+    letter-spacing: 1.96px;
+    color: #272727;
+
+}
+
+.modalbutton2 {
+    width: 200px;
+    background: #FD585C 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px #00000033;
+    border-radius: 4px;
+    opacity: 1;
+
+    font: Bold 22px/27px Product Sans;
+    letter-spacing: 1.96px;
+    color: #FFFFFF;
+
 }

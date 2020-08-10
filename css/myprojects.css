@@ -57,7 +57,7 @@ body {
     border-radius: 20px;
     width: 35px;
     line-height:1em;
-    margin-left: 1rem;
+    margin-right: 0;
     text-align:center;
     background: white;
     color: #272727;
@@ -94,12 +94,31 @@ body {
   
   .navbar-light .navbar-nav .nav-link {
     color: white;
-    margin: 0px 2rem 0px 2rem;
+    margin: 0px 2rem;
   }
   
   .navbar-light .navbar-nav .nav-link:hover {
-    background: #FFDB64;
+    background: #043650;
+    color: #272727;
     margin: 0px 2rem 0px 2rem;
+  }
+  
+  
+  .innerhead {
+    padding: 10px;margin: 10px 0px;font-size: 20px;font-weight: 600;border-left: 5px solid #fd585c;
+  }
+  
+  .innerpara {
+    width: 12rem;margin: 22px;text-align: justify;color: #272727;
+  }
+  
+  .innertag {
+    color: #fd585c;margin: 24px;padding: 0px 0px !important;font-weight: 600;text-align: left;
+  }
+  
+  #navbarDropdown:hover {
+    background: #043650;
+    color: #272727;
   }
   
   .line {
