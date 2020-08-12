@@ -69,7 +69,7 @@
 
 
         <div class="row" style="width: 100%">
-            <div class="col-lg-8" style="padding-right: 0;">
+            <div class="col-lg-9" style="padding-right: 0;">
                 <div class="container-fluid">
                     
 
@@ -98,12 +98,70 @@
                     
                     <div class="row">
 
-                        <div class="col-lg-10 pad">
-                            <input class="lineinput100" type="text" name="name" placeholder="start typing contributors name for this particular task." style="width: 100%;">
+                        <div class="col-lg-12 pad">
+                            <div class="dropdown" style="width: 100%;">
+                                <!-- <input class="lineinput100" type="text" name="name" placeholder="start typing contributors name for this particular task."> -->
+                                <div class="lineinput100">                                
+                                    <div class="memberselected">
+                                        John Doe<span style="float: right;">x</span>
+                                    </div>
+                                    <div class="memberselected">
+                                        John Doe<span style="float: right;">x</span>
+                                    </div>
+                                    <div class="memberselected">
+                                        John Doe<span style="float: right;">x</span>
+                                    </div>
+                                </div>
+                                <div class="dropdown-content" style="width: 60%;background: #FFFFFF 0% 0% no-repeat padding-box;box-shadow: 0px 3px 14px #00000029;border-radius: 6px;opacity: 1;">
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldname" style="margin-left: 0;">
+                                            All
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            <img src="img/completed.svg" style="width: 30px;height: 30px;">
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            <img src="img/completed.svg" style="width: 30px;height: 30px;">
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            <img src="img/completed.svg" style="width: 30px;height: 30px;">
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-2">
-                            <button type="button" class="btn addbutton">Add</button>
-                        </div>
+                       
 
                         <div class="col-lg-4 pad">
                             <div class="executiontab">
@@ -135,7 +193,7 @@
 
                         
                         <div class="col-lg-12 pad">
-                            <button type="button" class="btn linkbutton" data-toggle="modal" data-target="#exampleModalCenter">Save and Continue</button>
+                            <button type="button" class="btn linkbutton" data-toggle="modal" data-target="#exampleModalCenter" style="width: 300px;">Request resubmission</button>
                         </div>
 
                         <!-- Modal -->
@@ -143,17 +201,16 @@
                             <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                <h4 class="modal-title" id="exampleModalLongTitle">Confirm Submit Project?</h4>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Once you submit the project you can't edit again</p>
+                                    <p>Are you sure you want to request for resubmit the activity 2 ?</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn modalbutton1" data-dismiss="modal">No, Edit Again</button>
-                                    <button type="button" class="btn modalbutton2">Yes,Submit</button>
+                                    <button type="button" class="btn modalbutton1" data-dismiss="modal">No</button>
+                                    <button type="button" class="btn modalbutton2">Yes</button>
                                 </div>
                             </div>
                             </div>
@@ -173,7 +230,7 @@
             <!-- Details -->
 
 
-            <div class="col-lg-4" style="padding-right: 0;">
+            <div class="col-lg-3" style="padding-right: 0;">
                 <div class="container-fluid pad mt-3">
                     <div class="row">
                         <div class="col-lg-12 pad">
@@ -261,18 +318,16 @@
                                     <div class="col-lg-4"></div>
 
                                     
-
-                                    
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <div  class="comment" style="margin: 40px;">
+                                <div style="margin: 40px;">
                                     <h3>Comment:</h3>
                                     <textarea placeholder="Type something(Optional)..."></textarea>
                                 </div>
                             </div>
                             <div class="col-lg-12 pad">
-                                <button type="button" class="btn activitybutton">Done</button>
+                                <button type="button" class="btn activitybutton">Submit</button>
                             </div>
                         </div>
                     </div>

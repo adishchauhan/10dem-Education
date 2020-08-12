@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://egkoppel.github.io/product-sans/google-fonts.css">
         
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
 
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/assignment.css">
@@ -69,7 +69,7 @@
 
 
         <div class="row" style="width: 100%">
-            <div class="col-lg-8" style="padding-right: 0;">
+            <div class="col-lg-9" style="padding-right: 0;">
                 <div class="container-fluid">
                     
 
@@ -90,7 +90,16 @@
 
                      <!-- Activity -->
                     
-                    <h1>Activity 2</h1>
+                    <div class="row">
+                        <div class="col-lg-3 pad">
+                            <h1>Activity 2</h1>
+                        </div>
+                        <div class="col-lg-9 pad">
+                            <div class="indication" style="margin: 3rem 0;">
+                                <a>Due By 22/08/2020</a>
+                            </div>
+                        </div>
+                    </div>
                     <p id="innerpara">
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur dolore eu fugiat nulla pariatur
                     </p>
@@ -98,12 +107,70 @@
                     
                     <div class="row">
 
-                        <div class="col-lg-10 pad">
-                            <input class="lineinput100" type="text" name="name" placeholder="start typing contributors name for this particular task." style="width: 100%;">
+                        <div class="col-lg-12 pad">
+                            <div class="dropdown" style="width: 100%;">
+                                <!-- <input class="lineinput100" type="text" name="name" placeholder="start typing contributors name for this particular task."> -->
+                                <div class="lineinput100">                                
+                                    <div class="memberselected">
+                                        John Doe<span style="float: right;">x</span>
+                                    </div>
+                                    <div class="memberselected">
+                                        John Doe<span style="float: right;">x</span>
+                                    </div>
+                                    <div class="memberselected">
+                                        John Doe<span style="float: right;">x</span>
+                                    </div>
+                                </div>
+                                <div class="dropdown-content" style="width: 60%;z-index: 2;background: #FFFFFF 0% 0% no-repeat padding-box;box-shadow: 0px 3px 14px #00000029;border-radius: 6px;opacity: 1;">
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldname" style="margin-left: 0;">
+                                            All
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            <img src="img/completed.svg" style="width: 30px;height: 30px;">
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            <img src="img/completed.svg" style="width: 30px;height: 30px;">
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            <img src="img/completed.svg" style="width: 30px;height: 30px;">
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                    <a href="#" class="memberfields">
+                                        <div class="memberfieldimage">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </div>
+                                        <div class="memberfieldname">
+                                            John Doe
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-2">
-                            <button type="button" class="btn addbutton">Add</button>
-                        </div>
+                        
 
                         <div class="col-lg-4 pad">
                             <div class="executiontab">
@@ -152,7 +219,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn modalbutton1" data-dismiss="modal">No, Edit Again</button>
-                                    <button type="button" class="btn modalbutton2">Yes,Submit</button>
+                                    <button type="button" class="btn modalbutton2">Yes</button>
                                 </div>
                             </div>
                             </div>
@@ -171,7 +238,7 @@
             <!-- Details -->
 
 
-            <div class="col-lg-4" style="padding-right: 0;">
+            <div class="col-lg-3" style="padding-right: 0;">
                 <div class="container-fluid pad mt-3">
                     <div class="row">
                         <div class="col-lg-12 pad">
@@ -264,8 +331,29 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 pad">
-                                <button type="button" class="btn activitybutton">Done</button>
+                                <button type="button" class="btn activitybutton" data-toggle="modal" data-target="#exampleModalCenter1">Done</button>
                             </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body" style="text-align:justify">
+                                        <p>Your data is saved with us, you may continue uploading your files when you come back next time.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn modalbutton1" data-dismiss="modal">No, Edit Again</button>
+                                        <button type="button" class="btn modalbutton2">Sure Exit</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -282,10 +370,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
-        <script src="https://kit.fontawesome.com/6f24662773.js" crossorigin="anonymous"></script>
-
         
         <script src="js/build/ckeditor.js"></script>
         <script>ClassicEditor

@@ -47,7 +47,7 @@ ol {
 }
 
 textarea {
-    width: 500px;
+    width: 100%;
     height: 194px;
     padding: 20px;
 
@@ -60,7 +60,7 @@ textarea {
 }
 
 textarea::-webkit-input-placeholder {
-    font: Bold 24px/29px Product Sans;
+    font: Regualr 20px/29px Product Sans;
     letter-spacing: 0px;
     color: #03293D;
     opacity: 0.4;
@@ -267,13 +267,13 @@ p {
 
 
 .detailbutton {
-    height: 100px;
-    padding-top: 25px;
+    height: 80px;
+    padding-top: 20px;
     background: #FFDB64 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     text-align: center;
-    font: Bold 34px/42px Product Sans;
+    font: Bold 26px/42px Product Sans;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -281,13 +281,13 @@ p {
 }
 
 .chatbutton {
-    height: 100px;
-    padding-top: 25px;
+    height: 80px;
+    padding-top: 20px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 3px #00000029;
     opacity: 1;
     text-align: center;
-    font: Bold 34px/42px Product Sans;
+    font: Bold 26px/42px Product Sans;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #272727;
@@ -417,26 +417,26 @@ p {
     opacity: 1;
   }
 
-  .activitydiv1 { 
-    font: Bold 30px/37px Product Sans;
+  .activitydiv1 {
+    font: Bold 25px/37px Product Sans;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #03293D;
     opacity: 1;
     padding-right: 0px;
-    padding-left: 22px;
-    margin-top: 22px;
+    padding-left: 15px;
+    margin-top: 35px;
   }
 
   .activitydiv2 {
-    text-align: justify;
+    text-align: justify !important;
     padding: 0px;
     padding-right: 10px;
     margin: 0;
     text-align: start;
-    font: 600 24px/29px Product Sans;
+    font: 600 20px/29px Product Sans;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #272727;
     opacity: 1;
@@ -503,6 +503,38 @@ p {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  .memberfields {
+    padding: 10px;
+    height: 60px;
+    font: Regular 24px/29px Product Sans;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+  }
+
+  .memberfieldname {
+    float: left;
+    margin-left: 15px;
+    margin-top: 2px;
+    font: Bold 24px/29px Product Sans;
+    letter-spacing: 0px;
+    color: #272727;
+    opacity: 1;
+  }
+
+  .memberfieldimage {
+    float: left;width: max-content;background: #FFFFFF 0% 0% no-repeat padding-box;border: 2px solid #FD585CB3;border-radius: 3px;opacity: 1;
+  }
+
+  .memberselected {
+    float: left;
+    width: 170px;
+    height: 51px;
+    margin: 0 10px;
+    padding: 10px;background: #FD585C3B 0% 0% no-repeat padding-box;border-radius: 19px;opacity: 1;font: Bold 24px/29px Product Sans;letter-spacing: 0px;color: #FFFFFF;opacity: 1;
+  }
   
 .card {
     position: relative;
@@ -538,7 +570,7 @@ p {
 }
 
 .card-body a {
-    font: Bold 18px/22px Product Sans;
+    font: Regular 18px/22px Product Sans;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
     color: #272727;
@@ -657,3 +689,23 @@ p {
     color: #FFFFFF;
 
 }
+
+
+/* Chat Option CSS*/
+
+.columnmargin {
+    margin: 20px 0px;
+}
+
+#chattextarea {
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #70707066;
+    border-radius: 8px;
+    opacity: 1;
+
+}
+
